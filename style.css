@@ -111,24 +111,6 @@ a {
 
 }
 
-form {
-    display: grid;
-    justify-content: center;
-    grid-template-rows:70px 55px ;
-    font-size: 2rem;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-
-input {
-   height: 25px;
-}
-
-input:focus {
-height: 35px;
-background-color:#c6c6c6;
-}
-
 /* ¿ quienes somos ? */
 
 .titulo__nosotros{
