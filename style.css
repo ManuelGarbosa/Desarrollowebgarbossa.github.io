@@ -92,9 +92,16 @@ a {
  }
 
 
-.redesSociales i a{
+footer .redesSociales {
     background-color: #5e5e5e ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 } 
+
+
+
 
 
 /* contacto */
