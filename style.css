@@ -169,61 +169,6 @@ color: black;
 
 /* mediaqueries */
 
-@media only screen and (max-width: 768px) {
-    .logo {
-        height: 100px;
-        display: grid;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .titulo__menu {
-        font-size: 28px;
-    }
-
-    .subtitulo__menu {
-        font-size: 24px;
-    }
-
-    .barraNav__lista {
-        font-size: 15px;
-        
-    }
-    .barraNav__lista li a {
-     font-size: 20px;
-}
-     .imgMenu {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         
-
-        }
-    
-     .imgMenu img {
-        width: 20vh;
-        border-radius: 30px;
-        margin: 0 10px 0 10px  ;
-    }
-   
-    footer {
-      position: absolute;
-      width: 100vw;
-      bottom: 0;
-    }
-
-    /* contacto */
-    form {
-        display: grid;
-        justify-content: center;
-        grid-template-rows:50px 35px ;
-        font-size: 2rem;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    
-}
-
 @media only screen and (max-width: 375px) {
 
 
@@ -244,16 +189,25 @@ color: black;
    .navbar-brand {
          font-size: 15px;
    }
+   
+   .carousel-item img {
+       height: 180px;
+
+   }
+
+
 
    .container {
-     min-height: calc(100vh - 100px - 300px); 
+     position: absolute;
+     width: 30%;
+     height: 40%;
+     top: 30%;
+     left: 35%;
    
    }  
-  .carousel-item img{
-      height: 275px;
-      align-items: center;
-  }
+ 
 
+ 
  ul li a  {
      font-size: 15px;
  }
@@ -263,5 +217,13 @@ color: black;
      display: none;
  }
 
+
+ .input-group-text {
+     display: none;
+ }
+
+option {
+    font-size: 14px;
+}
 
 }
