@@ -1,2 +1,21 @@
 body {
-  background-color: #fff; }
+  margin: 0;
+  background-color: #828282;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+footer {
+  background-color: #5e5e5e;
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto; }
+
+footer .redesSociales {
+  background-color: #5e5e5e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
