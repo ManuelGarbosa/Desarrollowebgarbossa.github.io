@@ -1,0 +1,32 @@
+$paleta-colores:(
+    primario:#828282,
+   secundario: #5e5e5e
+    );
+
+$fuentes: (
+    primaria:'Oswald' sans-serif
+);
+
+// extend
+
+%footer {
+   padding: 1em 0;
+   text-align: center;
+   margin-top: auto;
+}
+
+%redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+
+ @mixin body ($display, $flex) {
+     display: flex;
+     flex-direction: column;
+ }
+
+
+
