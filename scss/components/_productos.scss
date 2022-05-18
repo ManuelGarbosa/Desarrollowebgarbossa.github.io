@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: map-get($paleta-colores,primario ) ;
+    font-family: map-get($fuentes, primaria );
+    @include body (display, flex);
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.titulo__nosotros{
+    text-align: center;
+    background-color: map-get($paleta-colores,secundario ) ;
+}
+
+.subtitulo__nosotros {
+    text-align: center;
+    background-color: map-get($paleta-colores,secundario) ;
+   
+}
+
+.row {
+    width: 100%;
+    max-width: 1700px;
+    height: 4300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.row .card {
+    width: 350px;
+    height: 370px;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+body {
+    background-color: map-get($paleta-colores,primario ) ;
+    font-family: map-get($fuentes, primaria );
+}
+

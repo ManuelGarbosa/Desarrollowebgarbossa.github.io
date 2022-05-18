@@ -20,3 +20,39 @@ body {
 
 footer {
   background-color: #5e5e5e; }
+
+body {
+  margin: 0;
+  background-color: #828282;
+  font-family: "Oswald" sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+.titulo__nosotros {
+  text-align: center;
+  background-color: #5e5e5e; }
+
+.subtitulo__nosotros {
+  text-align: center;
+  background-color: #5e5e5e; }
+
+.row {
+  width: 100%;
+  max-width: 1700px;
+  height: 4300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+
+.row .card {
+  width: 350px;
+  height: 370px;
+  border-radius: 10px;
+  margin: 10px; }
+
+body {
+  background-color: #828282;
+  font-family: "Oswald" sans-serif; }
