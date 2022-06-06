@@ -1,6 +1,6 @@
 $paleta-colores:(
     primario:#828282,
-   secundario: #5e5e5e
+   secundario: #5e5e5e,
     );
 
 $fuentes: (
@@ -13,6 +13,7 @@ $fuentes: (
    padding: 1em 0;
    text-align: center;
    margin-top: auto;
+   background-color: #5e5e5e;
 }
 
 %redesSociales {
